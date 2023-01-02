@@ -58,8 +58,8 @@ public class HelloWorld {
 // Prints out -8 for y
 // Prints out 5 for x
 //        Todo 14
-        byte max = 125;
-        System.out.println(max);
-// Incompatible type, wants to convert to int from byte to an int. Incrementing gives you an error once it passes the limits of the variable.
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(1 + Integer.MAX_VALUE);
+// Max number for the integer and incrementing will make it go to the lowest integer.
     }
 }
