@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class ControlFlowExercises {
     public static void main(String[] args) {
 //        Todo A While
@@ -7,40 +8,44 @@ public class ControlFlowExercises {
 //            System.out.println(i);
 //            i++;
 //        }
-//        Todo B Do While Create a do-while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a            new line.
-// Count to 100 by 2s
-//            int i = 0;
-//            do {
-//                System.out.println(i);
-//                i += 2;
-//            } while (i <= 100);
-
-// Count by 5s down to 0 from 100
-//            int i = 100;
-//            do {
-//                System.out.println(i);
-//                i -= 5;
-//            } while (i >= -10);
-// Square every number till 1,000,000
-//            long i = 2;
-//            do {
-//            System.out.println(i);
-//            i *= i;
-//            } while(i < 1000000);
 //        Todo A For Loop
 //        for(int j = 5; j < 15; j += 1) {
 //            System.out.println("j is " + j);
 //        }
+//        Todo B Do While Create a do-while loop that will count by 2's starting with 0 and ending at 100. Follow each number with a            new line.
+//        Todo B Do While
+// Count to 100 by 2s
+//        int i = 0;
+//        do {
+//            System.out.println(i);
+//            i += 2;
+//        } while (i <= 100);
 //        Todo B For Loop
 // By 2's to 100
 //        for (int j = 0; j <= 100; j += 2) {
 //            System.out.println(j);
 //        }
-// Count down by 5's
+//        Todo B Do While
+// Count by 5s down to 0 from 100 do while
+//            int i = 100;
+//            do {
+//                System.out.println(i);
+//                i -= 5;
+//            } while (i >= -10);
+//        Todo B for Loop
+// Count down by 5's for loop
 //        for (int j = 100; j >= -10; j -= 5) {
 //            System.out.println(j);
 //        }
-// Square starting with 2
+//        Todo B Do While
+// Square every number till 1,000,000 do while.
+//        long i = 2;
+//        do {
+//            System.out.println(i);
+//            i *= i;
+//        } while (i < 1000000);
+//        Todo B for Loop
+// Square starting with 2 for loop.
 //        for (long j = 2; j < 1000000; j *= j) {
 //            System.out.println(j);
 //        }
@@ -108,5 +113,6 @@ public class ControlFlowExercises {
         }
     }
 }
+
 
 
