@@ -71,16 +71,16 @@ public class ControlFlowExercises {
 //             Assume that the user will enter valid data.
 //             Only continue if the user agrees to.
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter an Integer if you would like to continue: ");
-        int userInput = scanner.nextInt();
-        System.out.println("Numbers | Squared | Cube");
-        System.out.println("------- | ------- | ----");
-// Table
-        for (int j = 1; j <= userInput; j++) {
-            int square = j * j;
-            int cube = j * j * j;
-            System.out.printf("%-7d | %-7d | %-4d %n",j, square, cube);
-        }
+//        System.out.print("Enter an Integer if you would like to continue: ");
+//        int userInput = scanner.nextInt();
+//        System.out.println("Numbers | Squared | Cube");
+//        System.out.println("------- | ------- | ----");
+//// Table
+//        for (int j = 1; j <= userInput; j++) {
+//            int square = j * j;
+//            int cube = j * j * j;
+//            System.out.printf("%-7d | %-7d | %-4d %n",j, square, cube);
+//        }
 //        Todo 4
 //         Convert given number grades into letter grades.
 //         Prompt the user for a numerical grade from 0 to 100.
