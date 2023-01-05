@@ -5,7 +5,7 @@ public class StringExercise {
 //        Todo 1 B
         System.out.println("Check \"this\" out!, \"s inside of \"s!");
 //        Todo 1 C
-        System.out.println("In windows, the main drive is usually C:\"");
+        System.out.println("In windows, the main drive is usually C:\\\n");
 //        Todo 1 D
         System.out.println("I can do backslashes \\, double backslashes \\\\,\n" + "and the amazing triple backslash \\\\\\!");
     }
