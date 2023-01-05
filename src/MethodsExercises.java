@@ -38,7 +38,7 @@ public class MethodsExercises {
 //        System.out.println("Enter your second number to add: ");
 //        int addResult2 = scanner.nextInt();
 //        System.out.println(add(addResult, addResult2));
-        int subResult = MethodsExercises.subtract(4, 3);
+        int subResult = subtract(4, 3);
         System.out.println(subResult);
 //      How to add user input
 //        System.out.println("Enter your first number to subtract: ");
@@ -46,7 +46,7 @@ public class MethodsExercises {
 //        System.out.println("Enter your second number to subtract: ");
 //        int subResult2 = scanner.nextInt();
 //        System.out.println(subResult - subResult2);
-        int multiplyResult = MethodsExercises.multiply(3, 5);
+        int multiplyResult = multiply(3, 5);
         System.out.println(multiplyResult);
 //      How to add user input
 //        System.out.println("Enter your first number to multiply: ");
@@ -54,7 +54,7 @@ public class MethodsExercises {
 //        System.out.println("Enter your second number to multiply: ");
 //        int multiplyResult2 = scanner.nextInt();
 //        System.out.println(multiplyResult * multiplyResult2);
-        int divisionResult = MethodsExercises.divide(64, 4);
+        int divisionResult = divide(64, 4);
         System.out.println(divisionResult);
 //      How to add user input
 //        System.out.println("Enter your first number to divide: ");
@@ -62,7 +62,7 @@ public class MethodsExercises {
 //        System.out.println("Enter your second number to divide: ");
 //        int divisionResult2 = scanner.nextInt();
 //        System.out.println(divisionResult / divisionResult2);
-        int modulusResult = MethodsExercises.modulus(25,9);
+        int modulusResult = modulus(25,9);
         System.out.println(modulusResult);
 //      Todo 2
         getInteger(1, 10);
