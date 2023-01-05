@@ -21,7 +21,7 @@ public class Bob {
         }
 //       Todo 3
 //        He says 'Fine. Be that way!' if you address him without actually saying anything. (empty input)
-        else if(userInput.equals("")) {
+        else if(userInput.isEmpty()) {
             System.out.println("Fine. Be that way!");
         }
 //       Todo 4
@@ -31,7 +31,7 @@ public class Bob {
         }
 //       Todo 5
 //        Write the Java code necessary so that a user of your command line application can have a conversation with Bob.
-        if (userInput.equals("How are you?")) {
+        if (userInput.equals("")) {
             System.out.println("Good thanks for asking.");
         }
     }
