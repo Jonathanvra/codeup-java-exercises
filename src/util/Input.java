@@ -13,7 +13,7 @@ public class Input {
     }
 //   Todo getInt
     public static int getInt(int min, int max) {
-//        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 //        scanner();
         System.out.println("Please enter a number between " + min + " and " + max + " :");
         int userInput = scanner.nextInt();
