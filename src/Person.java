@@ -14,7 +14,7 @@ public class Person {
     }
 
     public void sayHello() {
-        System.out.println("Hello, " + this.name + " welcome to Xerxes.");
+        System.out.printf("Hello, " + this.name + " welcome to Xerxes.", name);
 //TODO: print a message to the console using the person's name
     }
     public Person(String name) {
