@@ -6,7 +6,8 @@ public class ArraysExercises {
 
     public static void main(String[] args) {
 //    numbers();
-    int[] numbers = {1, 2, 3, 4, 5};
+//    Todo 1
+        int[] numbers = {1, 2, 3, 4, 5};
         System.out.println(numbers);
     }
 }
