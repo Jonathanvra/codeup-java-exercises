@@ -1,14 +1,11 @@
 package util;
 
 import java.util.Scanner;
-
 public class Input {
     private Scanner scanner;
-
     public Input() {
         scanner = new Scanner(System.in);
     }
-
 //    Todo getString
     public String getString() {
         System.out.println("Please input string:");
@@ -19,8 +16,6 @@ public class Input {
         System.out.println(prompt);
         return scanner.nextLine();
     }
-
-//    Todo boolean
     public boolean yesNo() {
         String userResp = getString("Please input yes or no:");
         if (userResp.equalsIgnoreCase("yes") || userResp.equalsIgnoreCase("y")) {
@@ -39,14 +34,12 @@ public class Input {
         }
         return userInput;
     }
-
 //    Todo getInt
     public int getInt() {
         System.out.println("Please enter a whole number:");
         int userInput = scanner.nextInt();
         return userInput;
     }
-
 //    Todo getDouble(int min, int max)
     public double getDouble(int min, int max) {
         System.out.println("Please enter a number between " + min + " and " + max + " :");
@@ -56,14 +49,12 @@ public class Input {
         }
         return userInput;
     }
-
 //    Todo getDouble
     public double getDouble() {
         System.out.println("Please enter a number with a decimal:");
         double userInput = scanner.nextDouble();
         return userInput;
     }
-
     public static void main(String[] args) {
         Input in = new Input();
 
