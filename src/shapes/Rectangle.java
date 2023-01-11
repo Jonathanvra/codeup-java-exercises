@@ -18,10 +18,8 @@ public class Rectangle{
     }
 
     public static void main(String[] args) {
-        Input input = new Input();
-        System.out.println("Let's get a perimeter: ");
-        Rectangle rectangle = new Rectangle(input.getDouble(), input.getDouble());
-        System.out.printf("The perimeter of the rectangle is %f; The area of a rectangle is %f.%n", rectangle.getPerimeter(), rectangle.getArea());
-        System.out.printf("Circle's area: %f; Circle's circumference: %f.%n", Rectangle.getPerimeter(), Rectangle.getArea());
+        Rectangle rectangle = new Rectangle(5, 5);
+        System.out.println("The perimeter of the rectangle is " + rectangle.getPerimeter());
+        System.out.println("The area of the rectangle is " + rectangle.getArea());
     }
 }
