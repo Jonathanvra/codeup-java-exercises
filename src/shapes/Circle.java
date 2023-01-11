@@ -16,7 +16,7 @@ public class Circle {
     }
     public static void main(String[] args) {
         Input input = new Input();
-        System.out.println("This is the radius for our circle:");
+        System.out.println("Enter the radius for our circle:");
         Circle circle = new Circle(input.getDouble());
         System.out.printf("The circle's area: %f; Circle's circumference: %f.%n", circle.getArea(), circle.getCircumference());
     }
