@@ -22,4 +22,5 @@ public class Rectangle{
         System.out.println("The perimeter of the rectangle is " + rectangle.getPerimeter());
         System.out.println("The area of the rectangle is " + rectangle.getArea());
     }
+
 }
